@@ -9,7 +9,7 @@ on:
 jobs:
   build-and-deploy:
     name: Iniciando build e deploy
-    runs-on: ubutu-latest
+    runs-on: ubuntu-latest
     environment: production
     steps:
     - uses: actions/checkout@master
